@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bankautomat", "Bankautomat\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hangman", "Hangman\Hangman.vcxproj", "{EEC642D4-059E-4735-A010-D9059E0934E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PyramidenHaelfte", "PyramidenHaelfte\PyramidenHaelfte.vcxproj", "{AC81F713-3BC2-4C88-9BF4-10EE4E4C00BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{EEC642D4-059E-4735-A010-D9059E0934E5}.Release|x64.Build.0 = Release|x64
 		{EEC642D4-059E-4735-A010-D9059E0934E5}.Release|x86.ActiveCfg = Release|Win32
 		{EEC642D4-059E-4735-A010-D9059E0934E5}.Release|x86.Build.0 = Release|Win32
+		{AC81F713-3BC2-4C88-9BF4-10EE4E4C00BF}.Debug|x64.ActiveCfg = Debug|x64
+		{AC81F713-3BC2-4C88-9BF4-10EE4E4C00BF}.Debug|x64.Build.0 = Debug|x64
+		{AC81F713-3BC2-4C88-9BF4-10EE4E4C00BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC81F713-3BC2-4C88-9BF4-10EE4E4C00BF}.Debug|x86.Build.0 = Debug|Win32
+		{AC81F713-3BC2-4C88-9BF4-10EE4E4C00BF}.Release|x64.ActiveCfg = Release|x64
+		{AC81F713-3BC2-4C88-9BF4-10EE4E4C00BF}.Release|x64.Build.0 = Release|x64
+		{AC81F713-3BC2-4C88-9BF4-10EE4E4C00BF}.Release|x86.ActiveCfg = Release|Win32
+		{AC81F713-3BC2-4C88-9BF4-10EE4E4C00BF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
