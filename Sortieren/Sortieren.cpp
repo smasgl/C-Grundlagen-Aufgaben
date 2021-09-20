@@ -5,8 +5,9 @@
 
 int main()
 {
+	#pragma region Input
 	unsigned int length;
-	int values[200] = {0};
+	int values[200] = { 0 };
 	printf("Geben sie die Laenge des zum feullenden arrays an.\n\r");
 	while (true)
 	{
@@ -44,7 +45,9 @@ int main()
 			continue;
 		}
 	}
+	#pragma endregion
 
+	#pragma region Algorythmus
 	for (unsigned char i = 0; i < length; i++)
 	{
 		unsigned char nonSorted = 1;
@@ -61,10 +64,14 @@ int main()
 		if (nonSorted) // optimierung von BubbleSort
 			break;
 	}
-
+	#pragma endregion
+	
+	#pragma region Ausgabe
+	// Ausgeben
 	printf("\n\rSorted array:\n\r");
 	for (unsigned int i = 0; i < length; i++)
 	{
 		printf("Element[%i]: %i\n\r", i, values[i]);
 	}
+	#pragma endregion
 }

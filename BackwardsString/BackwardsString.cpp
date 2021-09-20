@@ -5,6 +5,7 @@
 
 int main()
 {
+	#pragma region Einlesen
 	// Einlesen
 	printf("Geben Sie das Wort ein: ");
 	unsigned char word[100] = { 0 };
@@ -20,7 +21,27 @@ int main()
 		while ((getchar()) != '\n');		// Abwarten und Clearen
 		break;
 	}
+	#pragma endregion
 
+	// vorwertsausgabe
+	printf("Vorwerts: \n\r");
+	for (unsigned char i = 0; i < 100; i++)
+	{
+		if (word[i] == '\0')
+			break;
+		printf("%c", word[i]);
+	}
+	// rückwertsausgabe
+	printf("Rueckwerts: \n\r");
+	for (char i = 99; i >= 0; i--)
+	{
+		if (word[i] == '\0')
+			continue;
+		printf("%c", word[i]);
+	}
+
+	// Mit erstellen eines neuen Arrays
+	/* 
 	while (word[length] != '\0')	// Die länge des Wortes herausfinden
 		length++;
 
@@ -31,7 +52,6 @@ int main()
 	printf("Rueckwerts: \n\r");
 	printf("%s", backwardsWord);
 	printf("\n\rRueckwerts gleich: \n\r");
-
 	// Überprüfen ob das wort rückwerts gleich ist
 	unsigned char flag = 1;
 	for (unsigned char i = 0; i < length; i++)
@@ -42,4 +62,5 @@ int main()
 		printf("TRUE\n\r");
 	else
 		printf("FALSE\n\r");
+	*/
 }
